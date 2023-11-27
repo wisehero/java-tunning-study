@@ -1,10 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
-		String str = "123";
-		System.out.println(str.hashCode());
+		Integer a = -128;
+		Integer b = -128;
 
-		str += "1233";
+		System.out.println(a == b);
 
-		System.out.println(str.hashCode());
 	}
 }
